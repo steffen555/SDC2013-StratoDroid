@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/start_menu"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF"
+    >
+
+    <TextView
+        android:id="@+id/tvTitel_sm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textSize="40sp" 
+        android:paddingTop="10dp"
+        android:textStyle="italic"
+        android:textColor="#A30008"
+        />
+
+    <Button
+        android:id="@+id/bPlay_sm"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#A30008"
+        android:text="Play"
+        android:textColor="#FF7373"
+        android:textSize="30dp" 
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/bGR_sm"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#A30008"
+        android:text="Game Rules"
+        android:textColor="#FF7373"
+        android:textSize="30dp" 
+        android:textStyle="italic"/>
+    
+    <Button
+        android:id="@+id/bROT_sm"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#A30008"
+        android:text="Ranklist of Tokens"
+        android:textColor="#FF7373"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ivBomb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pbomb" 
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
